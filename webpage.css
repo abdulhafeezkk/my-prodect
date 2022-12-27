@@ -1,0 +1,266 @@
+*/{
+	margin: 0;
+	padding: 0;
+	font-family: 'josifin son', sans serif;
+	box-sizing: border-box
+	}
+#header{
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://images.pexels.com/photos/5833621/pexels-photo-5833621.png?auto=compress&cs=tinysrgb&w=400");
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	style-list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-wait:bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color:red;
+	transition: .4s;
+}
+#home{
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	transform: translatY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+	
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 8px;
+	font-size: 20px;
+}
+.newsletter form{
+	width: 300px;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child{
+	display: inline-block;
+	width: 50%;
+	padding: 8px 60px 8px 8px;
+	border: 2px solid red;
+	outline: none;
+	border-radius: 30px;
+}
+.newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 30px;
+	background-color: red;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 5px;
+	left: 175px;
+	}
+	#about-me{
+		width: 100%;
+		height: 550px;
+		padding: 100px opx;
+		background-color: #191919;
+	}
+	.about img{
+		width: 550px;
+		height: 330px;
+	}
+	.about-text{
+		width: 350px;
+		padding: 5px;
+	}
+	.main{
+		width: 1130px;
+		max-width: 100%;
+		margin: o auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.about-text h2{
+		color: white;
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.about-text h5{
+		color: white;
+		font-size: 25px;
+		letter-spacing: 2px;
+		margin-bottom: 10px;
+	}
+	.about-text p{
+		color: #fcfc;
+		letter-spacing: 1px;
+		line-height: 28px;
+		font-size: 18px;
+		margin-bottom: 45px;
+	}
+	button{
+		background-color: red;
+		color: white;
+		text-decoration: none;
+		border: 2xp solid transparent;
+		font-weight: bold;
+		padding: 8px 16px;
+		border-radius: 30px;
+		transition: .4s;
+	}
+	button:hover{
+		background-color: transparent;
+		border: 2px solid #f9004d;
+		cursor: pointer;
+	}
+	#service{
+		background: #101010;
+		width: 100%;
+		padding: 30px 0px;
+	}
+	.title h2{
+		color: white;
+		font-size: 50px;
+		width: 1030px;
+		margin: 30px auto;
+		text-align: center;
+	}
+	.box{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 400px;
+	}
+	.card{
+		height:365px;
+		width: 335px;
+		padding: 20px 35px;
+		background-color: #191919;
+		border-radius: 20px;
+		margin: 15px;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+	h5{
+		color: white;
+		font-size: 23px;
+		margin-bottom: 15px;
+	}
+	.pra p{
+		color: #fcfc;
+		font-size: 16px;
+		line-height: 27px;
+		margin-bottom: 25px;
+	}
+	.card .button{
+			background-color: red;
+		color: white;
+		text-decoration: none;
+		border: 2xp solid transparent;
+		font-weight: bold;
+		padding: 9px 22px;
+		border-radius: 30px;
+		transition: .4s;
+	}
+	.card .button:hover{
+		background-color: transparent;
+		border: 2px solid #f9004d;
+		cursor: pointer;
+	}
+	 p{
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	
+	#footer{
+		position: relative;
+		width: 100%;
+		height: 500px;
+		background: #101010;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	#footer p:nth-child(1){
+		font-size: 30px;
+		color: white;
+		margin-bottom: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	#footer p:nth-child(2){
+		font-size: 17px;
+		color: white;
+		width: 500px;
+		text-align: center;
+		line-height: 26px;
+	}
+	.social ul{
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		display: flex;
+	}
+	.social ul li{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: white;
+		margin: 0px 15px;
+		border-radius: 40%;
+		color: white;
+		font-size: 30px;
+	}
+	.social a:hover{
+		transform: scale(1.3);
+		transition: .3s;
+	}
+		
+	
+
+		
+		
+		
+		
